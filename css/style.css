@@ -1,0 +1,53 @@
+body {
+    position: relative;
+    margin: 0; 
+}
+
+.header {
+    width: 100%; /* Занимает всю ширину экрана */
+    height: 80px;
+    background-color: #232536;
+    display: flex; /* Включаем flexbox для хедера */
+    justify-content: space-between; /* Распределяем элементы по краям */
+    align-items: center; /* Выравниваем элементы по вертикали */
+    padding: 0 20px; /* Отступы слева и справа */
+    box-sizing: border-box; /* Важно! */
+}
+.link-list {
+    display: flex;
+    align-items: center;
+}
+
+.link-list a {
+    font-family: inter;
+    color: white;
+    text-decoration: none;
+    margin-right: 24px; /* Добавляем отступ между ссылками */
+    white-space: nowrap; /* Предотвращаем перенос текста */
+}
+
+.link-list a:last-child {
+    margin-right: 0;
+}
+
+.btn_subscribe {
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+
+    position: absolute;
+    width: 179px;
+    height: 56px;
+    top: 12px;
+    left: 1181px;
+
+    background-color: #FFFFFF;
+    border: 0px;
+    box-sizing: border-box; 
+
+    display: flex;
+    align-items: center;    
+    justify-content: center; 
+}
