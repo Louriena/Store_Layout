@@ -109,15 +109,14 @@ body {
     position: absolute;
     top: 128px;
     height: 20px;
-    width: 222px;
+    width: 250px;
 
     font-family: Inter;
-    font-weight: 600;
+    font-weight: 400;
     font-size: 16px;
     line-height: 20px;
-    letter-spacing: 3px;
+    letter-spacing: 3.5px;
     text-transform: uppercase;
-
 }
 
 .Step-by-step {
@@ -133,5 +132,77 @@ body {
     position: absolute;
     margin-top: 172px;
     left: 81px;
+}
+
+.by_james {
+    color:#FFFFFF;
+    position: absolute;
+    width: 243px;
+    height: 28px;
+    margin-top: 324px; 
+    left: 81px;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+.Duis {
+    color: #FFFFFF;
+    position: absolute;
+    width: 599px;
+    height: 56px;
+    margin-top: 368px;
+    left: 80px;
+
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0.5px;
+}
+
+.West {
+    color: #FFD050;
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    letter-spacing: 0.5px;
+}
+
+.startup {
+    font-family: Inter;
+    font-weight: 900;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
 
 }
+
+.read_more {
+    background-color: #FFD050;
+    position: absolute;
+    width: 204;
+    height: 56;
+    margin-top: 472px;
+    left: 80px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    gap: 12px;
+
+    font-family: Sen;
+     font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+}
+
