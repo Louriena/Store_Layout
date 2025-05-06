@@ -1,7 +1,7 @@
 body {
     position: relative;
     margin: 0;
-    background-color: black;
+    /* background-color: black; */
 }
 
 .container {
@@ -203,6 +203,394 @@ body {
     line-height: 24px;
     letter-spacing: 0px;
     vertical-align: middle;
+}
+
+.Featured_Posts {
+    background-color: #FFFFFF;
+    position: relative;
+    width: 1282px; 
+    height: 804px; 
+    margin: 128px auto; 
 
 }
 
+.Featured_Post_text {
+    position: absolute;
+    width: 223px;
+    height: 48px;
+
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+
+    color: #232536;
+}
+
+
+.post_wrapper {
+    position: absolute;
+    width: 733px;
+    height: 724px;
+    margin-top: 79px;
+    border-width: 1px;
+    border: 1px solid #6D6E76
+}
+
+.post_wrapper img {
+    position: absolute;
+    width: 669px;
+    height: 352px;
+    top: 32px;
+    left: 32px
+}
+
+.by_john {
+    position: absolute;
+    width: 669px;
+    height: 352px;
+    top: 416px;
+    left: 32px;
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+
+}
+
+.John {
+    color: #592EA9;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.lorem {
+    position: absolute;
+    width: 669px;
+    height: 80px;
+    top: 452px;
+    left: 32px;
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+}
+
+.Duis_aute {
+    position: absolute;
+    width: 551px;
+    height: 56px;
+    top: 548px;
+    left: 32px;
+    color: #6D6E76;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+}
+
+
+.read_more1 {
+    background-color: #FFD050;
+    position: absolute;
+    width: 204;
+    height: 56;
+    top: 636px;
+    left: 32px;
+    padding-top: 16px;
+    padding-right: 48px;
+    padding-bottom: 16px;
+    padding-left: 48px;
+    gap: 12px;
+
+    font-family: Sen;
+     font-weight: 700;
+    font-size: 18px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+}
+
+.All_Posts {
+    position: relative; 
+    width: 517px;
+    height: 804px;
+    left: 765px;
+}
+
+.All_Post1 {
+    position: absolute;
+    width: 133px;
+    height: 48px;
+
+
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+    color: #232536;
+}
+
+.view_all { 
+    position: absolute;
+    width: 60px ;
+    height: 28px;
+    top: 16px;
+    left: 450px;
+    
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+    color: #592EA9;
+}
+
+.item {
+    position: absolute;
+    width: 517px;
+    height: 181px;
+    top: 76px;
+    left: 0px;
+    rotate: -180 deg;
+}
+
+.by_john_deo {
+    position: absolute;
+    width: 199px;
+    height: 20px;
+    top: 32px;
+    left: 32px;
+    
+
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}
+
+.John_deo {
+    color: #592EA9;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0px;
+}    
+
+.John_deo_info {
+    position: absolute;
+    width: 369px;
+    height: 96px;
+    top: 60px;
+    left: 32px;
+
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 32px;
+    letter-spacing: 0px;
+}
+
+.item1 {
+    width: 517px;
+    height: 181px;
+    position: absolute;
+    top: 250px;
+    background-color: #FBF6EA;
+}
+
+.item2 {
+    width: 517px;
+    height: 181px;
+    position: absolute;
+    top: 432px;
+}
+
+.item3 {
+    width: 517px;
+    height: 181px;
+    position: absolute;
+    top: 615px;
+}
+
+.About_us_our_mission {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 600;
+}
+
+.box_info {
+    position: absolute;
+    width: 1280px;
+    height: 523px;
+    top: 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    position: absolute;
+    width: 1280px;
+    height: 500px;
+    top: 21px;
+    background-color: #F4F0F8;
+} 
+
+.shape {
+    position: absolute;
+    background-color: #FFD050;
+    width: 843px;
+    height: 23px;
+    top: 0px;
+}
+
+.shape1 {
+    position: absolute;
+    background-color: Purple;
+    width: 282px;
+    height: 23px;    
+    top: 0px;
+    left: 998px;
+}
+
+.about_us_info {
+    width: 110px;
+    height: 20px;
+    position: absolute;
+    top: 96px;
+    left: 80px;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+}
+
+.more_info_about {
+    width: 494px;
+    height: 144px;
+    position: absolute;
+    top: 140px;
+    left: 80px;
+
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+
+    color: #232536;
+}
+
+.info_about {
+    width: 515px;
+    height: 56px;
+    position: absolute;
+    top: 300px;
+    left: 80px;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #6D6E76;
+
+}
+
+.read_us {
+    width: 110px;
+    height: 32px;
+    position: absolute;
+    top: 372px;
+    left: 80px;
+
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    vertical-align: middle;
+
+    color: #592EA9;
+}
+
+.our_mission_info {
+    width: 124px;
+    height: 20px;
+    position: absolute;
+    top: 96px;
+    left: 657px;
+
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    
+    color: #232536;
+}
+
+.more_info_our_mission {
+    width: 481px;
+    height: 80px;
+    position: absolute;
+    top: 142px;
+    left: 656px;
+
+    font-family: Sen;  
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+
+    color: #232536;
+}
+
+.info_our_mission {
+    width: 516px;
+    height: 108.73px;
+    position: absolute;
+    top: 238px;
+    left: 656px;
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+    color: #6D6E76;
+}
+
+.info_catagory {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.choose_a_catagory {
+    width: 302px;
+    height: 48px;
+    position: absolute;
+    margin-top: 1500px;
+}
