@@ -431,7 +431,7 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    height: 600;
+    height: 600px;
 }
 
 .box_info {
@@ -588,9 +588,119 @@ body {
     align-items: center;
 }
 
+.Choose_catagory {
+    position: relative;
+    width: 1280px;
+    height: 324px;
+    margin-top: 128px;
+
+}
+
 .choose_a_catagory {
     width: 302px;
     height: 48px;
+    top: 0px;
+    left: 0px;
+    color: #232536;
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 48px;
+    letter-spacing: -2px;
+}
+
+.catagory {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
     position: absolute;
-    margin-top: 1500px;
+    bottom: 0px;
+    width: 100%;
+}
+
+.Item,
+.Item1,
+.Item2,
+.Item3 {
+    width: 296px;
+    height: 228px;
+    top: 2607px;
+    left: 1064px;
+    
+    border: 1px solid #6D6E76;
+
+}
+
+.catagory p {
+    width: 107px;
+    height: 40px;
+    margin-left: 32px;
+    margin-top: 16px;
+
+    
+
+    font-family: Sen;
+    font-weight: 700;
+    font-size: 28px;
+    line-height: 40px;
+    letter-spacing: -1px;
+
+    color: #232536;
+}
+
+.catagory span {
+    width: 232px;
+    height: 56px;
+    margin-left: 32px;
+    margin-top: -32px;
+
+    display: inline-block; /* Добавляем! */
+
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    letter-spacing: 0px;
+
+
+    color: #6D6E76;
+}
+
+.Item1 {
+    background-color: #FFD050;
+    border: none;
+}
+
+.icon_Item,
+.icon_Item1,
+.icon_Item2,
+.icon_Item3 {
+    width: 48px;
+    height: 48px;
+    background-color: #FBF6EA;
+    border-radius: 10px;
+
+    margin-top: 32px;
+    margin-left: 32px;
+}
+
+.icon_Item .Vector1 {
+    width: 14.501998901367188;
+    height: 23.82232093811035;
+    margin-top: 12.22px;
+    margin-left: 12px;
+    margin-bottom: 11.96px;
+    margin-right: 1px;
+
+}
+
+.icon_Item .Vector {
+    width: 14.501998901367188;
+    height: 23.82232093811035;
+    position: absolute;
+    margin-top: 21.4px;
+    left: 59.5px;
+    margin-bottom: 11.96px;
+    margin-right: 12px;
+
 }
