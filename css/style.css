@@ -1203,7 +1203,7 @@ body {
     align-items: center;
     padding: 0 20px;
     box-sizing: border-box; */
-    position: relative;
+    /* position: relative; */
 }
 
 .content {
@@ -1227,8 +1227,68 @@ body {
 }
 
 .content .link-list {
-    display: none;
-    position: absolute;
-    margin-left: 703px;
+    display: flex;
+    justify-content: flex-end;
 }
 
+.CTA {
+    width: 1280px;
+    height: 256px;
+    border-width: 1px;
+    background-color: #4C4C4C;
+    position:absolute;
+    margin-top: 54.65px;
+    display: flex;
+    /* justify-content: ; */
+}
+
+.Email_input {
+    width: 323px;
+    height: 56px;
+    background-color: #6D6E76;
+    border: none;
+
+    margin-top: 84px;
+    margin-bottom: 116px;
+    margin-left: 64px;
+}
+
+.Subscribe_to_our {
+    width: 562px;
+    height: 96px;
+    color: #FFFFFF;
+
+    font-family: Sen;
+    font-weight: 700px;
+    font-size: 36px;
+    line-height: 48px;  
+    letter-spacing: -2px;
+    vertical-align: middle;
+
+    margin-top: 80px;
+    margin-bottom: 80px;
+    margin-left: 64px;
+}
+
+.CTA .btn_subscribe {
+    margin-top: 84px;
+    margin-bottom: 116px;
+    margin-left: 24px;
+    background-color: #FFD050;
+
+    cursor: pointer;
+}
+
+.Social_wrapper {
+    width: 144px;
+    height: 16px;
+}
+
+.Social_wrapper img {
+    width: 144px;
+    height: 16px;
+
+    position: absolute;
+    left: 1136px;
+    margin-top: 370px;
+}
