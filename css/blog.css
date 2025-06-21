@@ -1,0 +1,28 @@
+.blog_header { 
+    width: 1440px;
+    height: 519px;
+
+    background-color: #F4F0F8;
+}
+
+.photo_blog_header {
+    width: 515px;
+    height: 359px;
+    display: flex;
+}
+
+.btn_subscribe {
+    background-color: #FFD050;
+    cursor: pointer;
+}
+
+.blog_header {
+    display: flex;
+    justify-content: flex-end;
+    flex-direction: column;
+}
+
+.img_for_header_blog {
+    display: flex;
+    justify-content: flex-end;
+}
